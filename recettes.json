@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "nom": "Poulet grillé & légumes rôtis",
+    "categorie": "diner",
+    "emoji": "🍗",
+    "duree": "35 min",
+    "difficulte": "Facile",
+    "tags": ["protéiné", "sans gluten"],
+    "description": "Un classique sain et rassasiant, parfait pour la perte de poids.",
+    "lui": {
+      "kcal": 520,
+      "proteines_g": 52,
+      "glucides_g": 28,
+      "lipides_g": 18,
+      "ingredients": [
+        { "nom": "Blanc de poulet", "quantite": 220, "unite": "g" },
+        { "nom": "Courgette", "quantite": 200, "unite": "g" },
+        { "nom": "Poivron rouge", "quantite": 150, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 15, "unite": "ml" },
+        { "nom": "Ail", "quantite": 2, "unite": "gousses" },
+        { "nom": "Herbes de Provence", "quantite": 1, "unite": "c.à.c" }
+      ]
+    },
+    "elle": {
+      "kcal": 380,
+      "proteines_g": 38,
+      "glucides_g": 20,
+      "lipides_g": 13,
+      "ingredients": [
+        { "nom": "Blanc de poulet", "quantite": 160, "unite": "g" },
+        { "nom": "Courgette", "quantite": 150, "unite": "g" },
+        { "nom": "Poivron rouge", "quantite": 120, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 10, "unite": "ml" },
+        { "nom": "Ail", "quantite": 1, "unite": "gousse" },
+        { "nom": "Herbes de Provence", "quantite": 1, "unite": "c.à.c" }
+      ]
+    },
+    "etapes": [
+      "Préchauffer le four à 200°C.",
+      "Couper les légumes en morceaux et les disposer sur une plaque. Arroser d'huile d'olive, saler, poivrer.",
+      "Enfourner les légumes 15 minutes.",
+      "Pendant ce temps, assaisonner le poulet avec l'ail écrasé et les herbes.",
+      "Faire griller le poulet 6 à 7 minutes de chaque côté à la poêle ou au grill.",
+      "Servir le poulet sur les légumes rôtis."
+    ],
+    "conseil": "Mariner le poulet 30 min dans du citron et de l'ail pour encore plus de saveur."
+  },
+  {
+    "id": 2,
+    "nom": "Porridge avoine & fruits rouges",
+    "categorie": "petit-dej",
+    "emoji": "🥣",
+    "duree": "10 min",
+    "difficulte": "Facile",
+    "tags": ["végétarien", "rapide"],
+    "description": "Un petit-déjeuner nourrissant qui cale jusqu'au déjeuner.",
+    "lui": {
+      "kcal": 420,
+      "proteines_g": 18,
+      "glucides_g": 58,
+      "lipides_g": 12,
+      "ingredients": [
+        { "nom": "Flocons d'avoine", "quantite": 90, "unite": "g" },
+        { "nom": "Lait demi-écrémé", "quantite": 250, "unite": "ml" },
+        { "nom": "Fruits rouges surgelés", "quantite": 100, "unite": "g" },
+        { "nom": "Miel", "quantite": 10, "unite": "g" },
+        { "nom": "Graines de chia", "quantite": 10, "unite": "g" }
+      ]
+    },
+    "elle": {
+      "kcal": 300,
+      "proteines_g": 12,
+      "glucides_g": 42,
+      "lipides_g": 8,
+      "ingredients": [
+        { "nom": "Flocons d'avoine", "quantite": 60, "unite": "g" },
+        { "nom": "Lait demi-écrémé", "quantite": 180, "unite": "ml" },
+        { "nom": "Fruits rouges surgelés", "quantite": 80, "unite": "g" },
+        { "nom": "Miel", "quantite": 7, "unite": "g" },
+        { "nom": "Graines de chia", "quantite": 8, "unite": "g" }
+      ]
+    },
+    "etapes": [
+      "Verser les flocons d'avoine et le lait dans une casserole.",
+      "Cuire à feu moyen en remuant pendant 5 minutes jusqu'à épaississement.",
+      "Pendant ce temps, décongeler rapidement les fruits rouges au micro-ondes 1 minute.",
+      "Verser le porridge dans un bol, déposer les fruits rouges dessus.",
+      "Arroser de miel et parsemer de graines de chia."
+    ],
+    "conseil": "Préparer la veille au soir dans un bocal (overnight oats) pour gagner du temps le matin."
+  },
+  {
+    "id": 3,
+    "nom": "Salade de quinoa & thon",
+    "categorie": "dejeuner",
+    "emoji": "🥗",
+    "duree": "20 min",
+    "difficulte": "Facile",
+    "tags": ["protéiné", "sans gluten", "rapide"],
+    "description": "Une salade complète et légère, idéale pour le midi au bureau.",
+    "lui": {
+      "kcal": 490,
+      "proteines_g": 42,
+      "glucides_g": 45,
+      "lipides_g": 14,
+      "ingredients": [
+        { "nom": "Quinoa cuit", "quantite": 180, "unite": "g" },
+        { "nom": "Thon en boîte (au naturel)", "quantite": 160, "unite": "g" },
+        { "nom": "Concombre", "quantite": 100, "unite": "g" },
+        { "nom": "Tomates cerises", "quantite": 100, "unite": "g" },
+        { "nom": "Jus de citron", "quantite": 20, "unite": "ml" },
+        { "nom": "Huile d'olive", "quantite": 10, "unite": "ml" }
+      ]
+    },
+    "elle": {
+      "kcal": 350,
+      "proteines_g": 30,
+      "glucides_g": 32,
+      "lipides_g": 10,
+      "ingredients": [
+        { "nom": "Quinoa cuit", "quantite": 120, "unite": "g" },
+        { "nom": "Thon en boîte (au naturel)", "quantite": 120, "unite": "g" },
+        { "nom": "Concombre", "quantite": 80, "unite": "g" },
+        { "nom": "Tomates cerises", "quantite": 80, "unite": "g" },
+        { "nom": "Jus de citron", "quantite": 15, "unite": "ml" },
+        { "nom": "Huile d'olive", "quantite": 8, "unite": "ml" }
+      ]
+    },
+    "etapes": [
+      "Rincer et cuire le quinoa selon les instructions (environ 15 min). Laisser refroidir.",
+      "Égoutter le thon et l'émietter dans un grand bol.",
+      "Couper le concombre en demi-rondelles et les tomates cerises en deux.",
+      "Mélanger tous les ingrédients dans le bol.",
+      "Assaisonner avec le jus de citron, l'huile d'olive, sel et poivre."
+    ],
+    "conseil": "Le quinoa peut être cuit en avance et conservé 3 jours au frigo."
+  },
+  {
+    "id": 4,
+    "nom": "Œufs brouillés & avocat",
+    "categorie": "petit-dej",
+    "emoji": "🥑",
+    "duree": "10 min",
+    "difficulte": "Facile",
+    "tags": ["sans gluten", "rapide", "protéiné"],
+    "description": "Petit-déjeuner riche en bonnes graisses et protéines.",
+    "lui": {
+      "kcal": 390,
+      "proteines_g": 22,
+      "glucides_g": 8,
+      "lipides_g": 30,
+      "ingredients": [
+        { "nom": "Œufs", "quantite": 3, "unite": "pièces" },
+        { "nom": "Avocat", "quantite": 100, "unite": "g" },
+        { "nom": "Lait", "quantite": 30, "unite": "ml" },
+        { "nom": "Beurre", "quantite": 8, "unite": "g" },
+        { "nom": "Ciboulette fraîche", "quantite": 5, "unite": "g" }
+      ]
+    },
+    "elle": {
+      "kcal": 280,
+      "proteines_g": 15,
+      "glucides_g": 6,
+      "lipides_g": 22,
+      "ingredients": [
+        { "nom": "Œufs", "quantite": 2, "unite": "pièces" },
+        { "nom": "Avocat", "quantite": 70, "unite": "g" },
+        { "nom": "Lait", "quantite": 20, "unite": "ml" },
+        { "nom": "Beurre", "quantite": 5, "unite": "g" },
+        { "nom": "Ciboulette fraîche", "quantite": 5, "unite": "g" }
+      ]
+    },
+    "etapes": [
+      "Battre les œufs avec le lait, sel et poivre.",
+      "Faire fondre le beurre dans une poêle à feu doux.",
+      "Verser les œufs et remuer doucement en continu avec une spatule pendant 3-4 min.",
+      "Retirer du feu quand les œufs sont encore légèrement coulants (ils finissent de cuire hors feu).",
+      "Trancher l'avocat, assaisonner de citron et sel.",
+      "Servir les œufs brouillés avec l'avocat et parsemer de ciboulette."
+    ],
+    "conseil": "La clé : feu très doux et ne jamais cesser de remuer pour des œufs crémeux."
+  }
+]
