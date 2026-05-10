@@ -1,184 +1,332 @@
 [
   {
     "id": 1,
-    "nom": "Poulet grillé & légumes rôtis",
+    "nom": "Poulet & pommes de terre rôties",
     "categorie": "diner",
     "emoji": "🍗",
-    "duree": "35 min",
+    "duree": "40 min",
     "difficulte": "Facile",
-    "tags": ["protéiné", "sans gluten"],
-    "description": "Un classique sain et rassasiant, parfait pour la perte de poids.",
-    "lui": {
-      "kcal": 520,
-      "proteines_g": 52,
-      "glucides_g": 28,
-      "lipides_g": 18,
+    "tags": ["sans gluten", "gourmand"],
+    "description": "Un classique réconfortant, rôti au four avec des herbes.",
+    "matt": {
+      "kcal": 530,
+      "proteines_g": 48,
+      "glucides_g": 42,
+      "lipides_g": 14,
       "ingredients": [
-        { "nom": "Blanc de poulet", "quantite": 220, "unite": "g" },
-        { "nom": "Courgette", "quantite": 200, "unite": "g" },
-        { "nom": "Poivron rouge", "quantite": 150, "unite": "g" },
-        { "nom": "Huile d'olive", "quantite": 15, "unite": "ml" },
+        { "nom": "Blanc de poulet", "quantite": 230, "unite": "g" },
+        { "nom": "Pommes de terre", "quantite": 250, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 12, "unite": "ml" },
+        { "nom": "Ail", "quantite": 2, "unite": "gousses" },
+        { "nom": "Romarin frais", "quantite": 2, "unite": "brins" },
+        { "nom": "Paprika", "quantite": 1, "unite": "c.à.c" }
+      ]
+    },
+    "leo": {
+      "kcal": 385,
+      "proteines_g": 35,
+      "glucides_g": 30,
+      "lipides_g": 10,
+      "ingredients": [
+        { "nom": "Blanc de poulet", "quantite": 165, "unite": "g" },
+        { "nom": "Pommes de terre", "quantite": 180, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 8, "unite": "ml" },
+        { "nom": "Ail", "quantite": 1, "unite": "gousse" },
+        { "nom": "Romarin frais", "quantite": 1, "unite": "brin" },
+        { "nom": "Paprika", "quantite": 1, "unite": "c.à.c" }
+      ]
+    },
+    "etapes": [
+      "Préchauffer le four à 200°C.",
+      "Couper les pommes de terre en quartiers, les disposer sur une plaque avec l'ail écrasé et le romarin.",
+      "Arroser d'huile d'olive, saler, poivrer, mélanger. Enfourner 20 min.",
+      "Assaisonner le poulet avec paprika, sel et poivre.",
+      "Ajouter le poulet sur la plaque, remettre au four 18 à 20 min en retournant à mi-cuisson.",
+      "Laisser reposer 2 min avant de servir."
+    ],
+    "conseil": "Pour des pommes de terre encore plus croustillantes, les sécher soigneusement avant de les huiler."
+  },
+  {
+    "id": 2,
+    "nom": "Poulet & haricots verts",
+    "categorie": "diner",
+    "emoji": "🥦",
+    "duree": "25 min",
+    "difficulte": "Facile",
+    "tags": ["sans gluten", "léger", "rapide"],
+    "description": "Un repas léger et protéiné, prêt en moins de 30 minutes.",
+    "matt": {
+      "kcal": 420,
+      "proteines_g": 50,
+      "glucides_g": 14,
+      "lipides_g": 16,
+      "ingredients": [
+        { "nom": "Blanc de poulet", "quantite": 240, "unite": "g" },
+        { "nom": "Haricots verts", "quantite": 280, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 12, "unite": "ml" },
+        { "nom": "Jus de citron", "quantite": 15, "unite": "ml" },
         { "nom": "Ail", "quantite": 2, "unite": "gousses" },
         { "nom": "Herbes de Provence", "quantite": 1, "unite": "c.à.c" }
       ]
     },
-    "elle": {
-      "kcal": 380,
-      "proteines_g": 38,
-      "glucides_g": 20,
-      "lipides_g": 13,
+    "leo": {
+      "kcal": 300,
+      "proteines_g": 36,
+      "glucides_g": 10,
+      "lipides_g": 11,
       "ingredients": [
-        { "nom": "Blanc de poulet", "quantite": 160, "unite": "g" },
-        { "nom": "Courgette", "quantite": 150, "unite": "g" },
-        { "nom": "Poivron rouge", "quantite": 120, "unite": "g" },
-        { "nom": "Huile d'olive", "quantite": 10, "unite": "ml" },
+        { "nom": "Blanc de poulet", "quantite": 170, "unite": "g" },
+        { "nom": "Haricots verts", "quantite": 220, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 8, "unite": "ml" },
+        { "nom": "Jus de citron", "quantite": 10, "unite": "ml" },
         { "nom": "Ail", "quantite": 1, "unite": "gousse" },
         { "nom": "Herbes de Provence", "quantite": 1, "unite": "c.à.c" }
       ]
     },
     "etapes": [
-      "Préchauffer le four à 200°C.",
-      "Couper les légumes en morceaux et les disposer sur une plaque. Arroser d'huile d'olive, saler, poivrer.",
-      "Enfourner les légumes 15 minutes.",
-      "Pendant ce temps, assaisonner le poulet avec l'ail écrasé et les herbes.",
-      "Faire griller le poulet 6 à 7 minutes de chaque côté à la poêle ou au grill.",
-      "Servir le poulet sur les légumes rôtis."
+      "Cuire les haricots verts à l'eau bouillante salée 6 minutes, égoutter.",
+      "Couper le poulet en lanières, assaisonner avec herbes, sel et poivre.",
+      "Faire chauffer l'huile dans une poêle à feu vif, faire revenir l'ail écrasé 1 minute.",
+      "Ajouter le poulet, cuire 5 à 6 minutes en remuant jusqu'à coloration dorée.",
+      "Ajouter les haricots verts dans la poêle, mélanger 2 minutes.",
+      "Arroser de jus de citron avant de servir."
     ],
-    "conseil": "Mariner le poulet 30 min dans du citron et de l'ail pour encore plus de saveur."
-  },
-  {
-    "id": 2,
-    "nom": "Porridge avoine & fruits rouges",
-    "categorie": "petit-dej",
-    "emoji": "🥣",
-    "duree": "10 min",
-    "difficulte": "Facile",
-    "tags": ["végétarien", "rapide"],
-    "description": "Un petit-déjeuner nourrissant qui cale jusqu'au déjeuner.",
-    "lui": {
-      "kcal": 420,
-      "proteines_g": 18,
-      "glucides_g": 58,
-      "lipides_g": 12,
-      "ingredients": [
-        { "nom": "Flocons d'avoine", "quantite": 90, "unite": "g" },
-        { "nom": "Lait demi-écrémé", "quantite": 250, "unite": "ml" },
-        { "nom": "Fruits rouges surgelés", "quantite": 100, "unite": "g" },
-        { "nom": "Miel", "quantite": 10, "unite": "g" },
-        { "nom": "Graines de chia", "quantite": 10, "unite": "g" }
-      ]
-    },
-    "elle": {
-      "kcal": 300,
-      "proteines_g": 12,
-      "glucides_g": 42,
-      "lipides_g": 8,
-      "ingredients": [
-        { "nom": "Flocons d'avoine", "quantite": 60, "unite": "g" },
-        { "nom": "Lait demi-écrémé", "quantite": 180, "unite": "ml" },
-        { "nom": "Fruits rouges surgelés", "quantite": 80, "unite": "g" },
-        { "nom": "Miel", "quantite": 7, "unite": "g" },
-        { "nom": "Graines de chia", "quantite": 8, "unite": "g" }
-      ]
-    },
-    "etapes": [
-      "Verser les flocons d'avoine et le lait dans une casserole.",
-      "Cuire à feu moyen en remuant pendant 5 minutes jusqu'à épaississement.",
-      "Pendant ce temps, décongeler rapidement les fruits rouges au micro-ondes 1 minute.",
-      "Verser le porridge dans un bol, déposer les fruits rouges dessus.",
-      "Arroser de miel et parsemer de graines de chia."
-    ],
-    "conseil": "Préparer la veille au soir dans un bocal (overnight oats) pour gagner du temps le matin."
+    "conseil": "Quelques copeaux de parmesan au moment de servir pour un côté encore plus gourmand."
   },
   {
     "id": 3,
-    "nom": "Salade de quinoa & thon",
-    "categorie": "dejeuner",
-    "emoji": "🥗",
-    "duree": "20 min",
+    "nom": "Steak, courgettes & riz",
+    "categorie": "diner",
+    "emoji": "🥩",
+    "duree": "25 min",
     "difficulte": "Facile",
-    "tags": ["protéiné", "sans gluten", "rapide"],
-    "description": "Une salade complète et légère, idéale pour le midi au bureau.",
-    "lui": {
-      "kcal": 490,
-      "proteines_g": 42,
-      "glucides_g": 45,
-      "lipides_g": 14,
+    "tags": ["sans gluten", "protéiné", "gourmand"],
+    "description": "Un steak juteux avec des courgettes poêlées et du riz parfumé.",
+    "matt": {
+      "kcal": 560,
+      "proteines_g": 52,
+      "glucides_g": 46,
+      "lipides_g": 16,
       "ingredients": [
-        { "nom": "Quinoa cuit", "quantite": 180, "unite": "g" },
-        { "nom": "Thon en boîte (au naturel)", "quantite": 160, "unite": "g" },
-        { "nom": "Concombre", "quantite": 100, "unite": "g" },
-        { "nom": "Tomates cerises", "quantite": 100, "unite": "g" },
-        { "nom": "Jus de citron", "quantite": 20, "unite": "ml" },
-        { "nom": "Huile d'olive", "quantite": 10, "unite": "ml" }
+        { "nom": "Steak de bœuf (rumsteck)", "quantite": 200, "unite": "g" },
+        { "nom": "Riz basmati cuit", "quantite": 180, "unite": "g" },
+        { "nom": "Courgettes", "quantite": 250, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 10, "unite": "ml" },
+        { "nom": "Ail", "quantite": 1, "unite": "gousse" },
+        { "nom": "Persil frais", "quantite": 5, "unite": "g" }
       ]
     },
-    "elle": {
-      "kcal": 350,
-      "proteines_g": 30,
+    "leo": {
+      "kcal": 400,
+      "proteines_g": 37,
       "glucides_g": 32,
-      "lipides_g": 10,
+      "lipides_g": 11,
       "ingredients": [
-        { "nom": "Quinoa cuit", "quantite": 120, "unite": "g" },
-        { "nom": "Thon en boîte (au naturel)", "quantite": 120, "unite": "g" },
-        { "nom": "Concombre", "quantite": 80, "unite": "g" },
-        { "nom": "Tomates cerises", "quantite": 80, "unite": "g" },
-        { "nom": "Jus de citron", "quantite": 15, "unite": "ml" },
-        { "nom": "Huile d'olive", "quantite": 8, "unite": "ml" }
+        { "nom": "Steak de bœuf (rumsteck)", "quantite": 140, "unite": "g" },
+        { "nom": "Riz basmati cuit", "quantite": 130, "unite": "g" },
+        { "nom": "Courgettes", "quantite": 190, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 7, "unite": "ml" },
+        { "nom": "Ail", "quantite": 1, "unite": "gousse" },
+        { "nom": "Persil frais", "quantite": 5, "unite": "g" }
       ]
     },
     "etapes": [
-      "Rincer et cuire le quinoa selon les instructions (environ 15 min). Laisser refroidir.",
-      "Égoutter le thon et l'émietter dans un grand bol.",
-      "Couper le concombre en demi-rondelles et les tomates cerises en deux.",
-      "Mélanger tous les ingrédients dans le bol.",
-      "Assaisonner avec le jus de citron, l'huile d'olive, sel et poivre."
+      "Cuire le riz basmati selon les instructions (environ 12 min). Réserver.",
+      "Couper les courgettes en rondelles.",
+      "Faire revenir les courgettes avec l'ail dans l'huile d'olive à feu moyen, 6 à 7 min. Saler, poivrer.",
+      "Dans une poêle très chaude sans matière grasse, saisir le steak 2 à 3 min de chaque côté.",
+      "Laisser reposer le steak 2 minutes avant de le trancher.",
+      "Servir avec les courgettes et le riz, parsemer de persil haché."
     ],
-    "conseil": "Le quinoa peut être cuit en avance et conservé 3 jours au frigo."
+    "conseil": "Ne jamais piquer le steak pendant la cuisson pour garder tout le jus à l'intérieur."
   },
   {
     "id": 4,
-    "nom": "Œufs brouillés & avocat",
-    "categorie": "petit-dej",
-    "emoji": "🥑",
-    "duree": "10 min",
+    "nom": "Saumon & haricots verts",
+    "categorie": "diner",
+    "emoji": "🐟",
+    "duree": "20 min",
     "difficulte": "Facile",
-    "tags": ["sans gluten", "rapide", "protéiné"],
-    "description": "Petit-déjeuner riche en bonnes graisses et protéines.",
-    "lui": {
-      "kcal": 390,
-      "proteines_g": 22,
-      "glucides_g": 8,
-      "lipides_g": 30,
+    "tags": ["sans gluten", "léger", "oméga-3"],
+    "description": "Saumon poêlé croustillant sur un lit de haricots verts croquants.",
+    "matt": {
+      "kcal": 480,
+      "proteines_g": 46,
+      "glucides_g": 12,
+      "lipides_g": 26,
       "ingredients": [
-        { "nom": "Œufs", "quantite": 3, "unite": "pièces" },
-        { "nom": "Avocat", "quantite": 100, "unite": "g" },
-        { "nom": "Lait", "quantite": 30, "unite": "ml" },
-        { "nom": "Beurre", "quantite": 8, "unite": "g" },
-        { "nom": "Ciboulette fraîche", "quantite": 5, "unite": "g" }
+        { "nom": "Pavé de saumon", "quantite": 220, "unite": "g" },
+        { "nom": "Haricots verts", "quantite": 280, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 10, "unite": "ml" },
+        { "nom": "Jus de citron", "quantite": 15, "unite": "ml" },
+        { "nom": "Aneth séché", "quantite": 1, "unite": "c.à.c" }
       ]
     },
-    "elle": {
-      "kcal": 280,
-      "proteines_g": 15,
-      "glucides_g": 6,
-      "lipides_g": 22,
+    "leo": {
+      "kcal": 340,
+      "proteines_g": 33,
+      "glucides_g": 9,
+      "lipides_g": 19,
       "ingredients": [
-        { "nom": "Œufs", "quantite": 2, "unite": "pièces" },
-        { "nom": "Avocat", "quantite": 70, "unite": "g" },
-        { "nom": "Lait", "quantite": 20, "unite": "ml" },
-        { "nom": "Beurre", "quantite": 5, "unite": "g" },
-        { "nom": "Ciboulette fraîche", "quantite": 5, "unite": "g" }
+        { "nom": "Pavé de saumon", "quantite": 155, "unite": "g" },
+        { "nom": "Haricots verts", "quantite": 220, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 7, "unite": "ml" },
+        { "nom": "Jus de citron", "quantite": 10, "unite": "ml" },
+        { "nom": "Aneth séché", "quantite": 1, "unite": "c.à.c" }
       ]
     },
     "etapes": [
-      "Battre les œufs avec le lait, sel et poivre.",
-      "Faire fondre le beurre dans une poêle à feu doux.",
-      "Verser les œufs et remuer doucement en continu avec une spatule pendant 3-4 min.",
-      "Retirer du feu quand les œufs sont encore légèrement coulants (ils finissent de cuire hors feu).",
-      "Trancher l'avocat, assaisonner de citron et sel.",
-      "Servir les œufs brouillés avec l'avocat et parsemer de ciboulette."
+      "Cuire les haricots verts à l'eau bouillante salée 6 minutes. Égoutter.",
+      "Sécher le saumon avec du papier absorbant, saler et poivrer les deux faces.",
+      "Faire chauffer l'huile dans une poêle à feu moyen-vif.",
+      "Poser le saumon côté peau en bas, cuire 4 minutes sans toucher.",
+      "Retourner délicatement et cuire encore 2 à 3 minutes.",
+      "Servir sur les haricots verts, arroser de citron et parsemer d'aneth."
     ],
-    "conseil": "La clé : feu très doux et ne jamais cesser de remuer pour des œufs crémeux."
+    "conseil": "Appuyer légèrement sur le saumon avec une spatule les premières secondes pour une peau ultra croustillante."
+  },
+  {
+    "id": 5,
+    "nom": "Dinde hachée & courgettes",
+    "categorie": "diner",
+    "emoji": "🫕",
+    "duree": "20 min",
+    "difficulte": "Facile",
+    "tags": ["sans gluten", "très léger", "rapide"],
+    "description": "La viande la plus légère avec des courgettes fondantes, un duo imbattable.",
+    "matt": {
+      "kcal": 390,
+      "proteines_g": 48,
+      "glucides_g": 10,
+      "lipides_g": 16,
+      "ingredients": [
+        { "nom": "Dinde hachée", "quantite": 250, "unite": "g" },
+        { "nom": "Courgettes", "quantite": 300, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 10, "unite": "ml" },
+        { "nom": "Oignon", "quantite": 60, "unite": "g" },
+        { "nom": "Tomates concassées", "quantite": 100, "unite": "g" },
+        { "nom": "Cumin", "quantite": 1, "unite": "c.à.c" }
+      ]
+    },
+    "leo": {
+      "kcal": 280,
+      "proteines_g": 34,
+      "glucides_g": 8,
+      "lipides_g": 11,
+      "ingredients": [
+        { "nom": "Dinde hachée", "quantite": 175, "unite": "g" },
+        { "nom": "Courgettes", "quantite": 230, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 7, "unite": "ml" },
+        { "nom": "Oignon", "quantite": 45, "unite": "g" },
+        { "nom": "Tomates concassées", "quantite": 70, "unite": "g" },
+        { "nom": "Cumin", "quantite": 1, "unite": "c.à.c" }
+      ]
+    },
+    "etapes": [
+      "Émincer l'oignon, couper les courgettes en petits dés.",
+      "Faire revenir l'oignon dans l'huile d'olive à feu moyen 3 minutes.",
+      "Ajouter la dinde hachée, faire revenir en émiettant à la fourchette, 5 minutes.",
+      "Incorporer les courgettes et les tomates concassées, ajouter le cumin.",
+      "Laisser mijoter à feu doux 8 à 10 minutes en remuant de temps en temps.",
+      "Rectifier l'assaisonnement et servir chaud."
+    ],
+    "conseil": "Excellent aussi avec des épices à tajine pour une version marocaine. Se congèle très bien."
+  },
+  {
+    "id": 6,
+    "nom": "Cabillaud en papillote & brocolis",
+    "categorie": "diner",
+    "emoji": "🐠",
+    "duree": "30 min",
+    "difficulte": "Facile",
+    "tags": ["sans gluten", "très léger"],
+    "description": "Le poisson le plus léger, cuit en papillote pour concentrer toutes les saveurs.",
+    "matt": {
+      "kcal": 320,
+      "proteines_g": 48,
+      "glucides_g": 14,
+      "lipides_g": 7,
+      "ingredients": [
+        { "nom": "Filet de cabillaud", "quantite": 250, "unite": "g" },
+        { "nom": "Brocolis", "quantite": 300, "unite": "g" },
+        { "nom": "Tomates cerises", "quantite": 100, "unite": "g" },
+        { "nom": "Jus de citron", "quantite": 20, "unite": "ml" },
+        { "nom": "Huile d'olive", "quantite": 8, "unite": "ml" },
+        { "nom": "Herbes de Provence", "quantite": 1, "unite": "c.à.c" }
+      ]
+    },
+    "leo": {
+      "kcal": 230,
+      "proteines_g": 34,
+      "glucides_g": 10,
+      "lipides_g": 5,
+      "ingredients": [
+        { "nom": "Filet de cabillaud", "quantite": 175, "unite": "g" },
+        { "nom": "Brocolis", "quantite": 240, "unite": "g" },
+        { "nom": "Tomates cerises", "quantite": 70, "unite": "g" },
+        { "nom": "Jus de citron", "quantite": 15, "unite": "ml" },
+        { "nom": "Huile d'olive", "quantite": 5, "unite": "ml" },
+        { "nom": "Herbes de Provence", "quantite": 1, "unite": "c.à.c" }
+      ]
+    },
+    "etapes": [
+      "Préchauffer le four à 190°C.",
+      "Précuire les brocolis 5 minutes à l'eau bouillante, égoutter.",
+      "Couper une grande feuille de papier cuisson, déposer le cabillaud au centre.",
+      "Disposer les brocolis et les tomates cerises autour du poisson.",
+      "Arroser d'huile d'olive et de jus de citron, saupoudrer d'herbes, saler, poivrer.",
+      "Fermer hermétiquement la papillote et enfourner 18 minutes.",
+      "Ouvrir délicatement (attention à la vapeur) et servir directement."
+    ],
+    "conseil": "Ajouter une rondelle de citron et une tranche de gingembre frais pour une touche asiatique."
+  },
+  {
+    "id": 7,
+    "nom": "Crevettes sautées & riz basmati",
+    "categorie": "diner",
+    "emoji": "🍤",
+    "duree": "20 min",
+    "difficulte": "Facile",
+    "tags": ["sans gluten", "rapide", "gourmand"],
+    "description": "Des crevettes juteuses sautées à l'ail et au citron sur un riz parfumé.",
+    "matt": {
+      "kcal": 460,
+      "proteines_g": 42,
+      "glucides_g": 48,
+      "lipides_g": 10,
+      "ingredients": [
+        { "nom": "Crevettes décortiquées", "quantite": 220, "unite": "g" },
+        { "nom": "Riz basmati cuit", "quantite": 200, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 10, "unite": "ml" },
+        { "nom": "Ail", "quantite": 2, "unite": "gousses" },
+        { "nom": "Jus de citron", "quantite": 20, "unite": "ml" },
+        { "nom": "Persil frais", "quantite": 8, "unite": "g" },
+        { "nom": "Piment d'Espelette", "quantite": 1, "unite": "pincée" }
+      ]
+    },
+    "leo": {
+      "kcal": 330,
+      "proteines_g": 30,
+      "glucides_g": 34,
+      "lipides_g": 7,
+      "ingredients": [
+        { "nom": "Crevettes décortiquées", "quantite": 155, "unite": "g" },
+        { "nom": "Riz basmati cuit", "quantite": 145, "unite": "g" },
+        { "nom": "Huile d'olive", "quantite": 7, "unite": "ml" },
+        { "nom": "Ail", "quantite": 1, "unite": "gousse" },
+        { "nom": "Jus de citron", "quantite": 15, "unite": "ml" },
+        { "nom": "Persil frais", "quantite": 5, "unite": "g" },
+        { "nom": "Piment d'Espelette", "quantite": 1, "unite": "pincée" }
+      ]
+    },
+    "etapes": [
+      "Cuire le riz basmati selon les instructions. Réserver au chaud.",
+      "Faire chauffer l'huile dans une poêle à feu vif.",
+      "Faire revenir l'ail écrasé 30 secondes.",
+      "Ajouter les crevettes, sauter 2 à 3 minutes en remuant jusqu'à coloration.",
+      "Arroser de jus de citron, ajouter le piment d'Espelette, saler.",
+      "Servir immédiatement sur le riz, parsemer de persil haché."
+    ],
+    "conseil": "Avec des crevettes crues, cuire 3 à 4 minutes jusqu'à ce qu'elles soient bien roses. Encore meilleur !"
   }
 ]
