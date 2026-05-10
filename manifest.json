@@ -2,7 +2,7 @@
   "name": "Mes Recettes",
   "short_name": "Recettes",
   "description": "Recettes de Matt & Léo",
-  "start_url": "/",
+  "start_url": "/mes-recettes/",
   "display": "standalone",
   "background_color": "#f7f4ef",
   "theme_color": "#2d5a3d",
